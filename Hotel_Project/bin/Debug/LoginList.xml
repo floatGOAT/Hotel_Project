@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<AllUsers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <users>
+    <User>
+      <users />
+      <Login>Administrator</Login>
+      <Password>7777777</Password>
+    </User>
+    <User>
+      <users />
+      <Login>1</Login>
+      <Password>1</Password>
+    </User>
+    <User>
+      <users />
+      <Login>123</Login>
+      <Password>555</Password>
+    </User>
+    <User>
+      <users />
+      <Login>user1</Login>
+      <Password>newpass1</Password>
+    </User>
+    <User>
+      <users />
+      <Login>user2</Login>
+      <Password>user2</Password>
+    </User>
+    <User>
+      <users />
+      <Login>панда</Login>
+      <Password>панда</Password>
+    </User>
+    <User>
+      <users />
+      <Login>новый</Login>
+      <Password>новый</Password>
+    </User>
+    <User>
+      <users />
+      <Login>User</Login>
+      <Password>dc647eb65e6711e155375218212b3964</Password>
+    </User>
+    <User>
+      <users />
+      <Login>sevilla</Login>
+      <Password>basilea</Password>
+      <Hash>dbc9c413065c6e25bc12c1b748a0240d</Hash>
+    </User>
+    <User>
+      <users />
+      <Login>betis</Login>
+      <Password>kal</Password>
+      <Hash>b65cb28b7c2569d90631cef9c8a8c29e</Hash>
+    </User>
+    <User>
+      <Login>Andrew</Login>
+      <Password>Alexeev</Password>
+      <Hash>0240e1f04cf3110edd70d12aa3cdc617</Hash>
+    </User>
+  </users>
+</AllUsers>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<All_Visitors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <visitors>
+    <Visitor>
+      <FIO>Волков Алексей Юрьевич</FIO>
+      <Phone_Number>89221960930</Phone_Number>
+      <Room_Number>39</Room_Number>
+      <Room_Capacity>4</Room_Capacity>
+      <Room_Rang>Суперлюкс</Room_Rang>
+      <Duration>8</Duration>
+    </Visitor>
+  </visitors>
+</All_Visitors>

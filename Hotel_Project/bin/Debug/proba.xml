@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<All_Visitors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <visitors>
+    <Visitor>
+      <FIO>ФИО5</FIO>
+      <Phone_Number>Телефон5</Phone_Number>
+      <Room_Number>Комната5</Room_Number>
+      <Room_Capacity>2</Room_Capacity>
+      <Room_Rang>Суперлюкс</Room_Rang>
+      <Duration>5</Duration>
+    </Visitor>
+  </visitors>
+</All_Visitors>О2</FIO>
+      <Phone_Number>Телефон2</Phone_Number>
+      <Room_Number>Комната2</Room_Number>
+      <Room_Capacity>2</Room_Capacity>
+      <Room_Rang>Суперлюкс</Room_Rang>
+      <Duration>2</Duration>
+    </Visitor>
+    <Visitor>
+      <FIO>ФИО3</FIO>
+      <Phone_Number>Телефон3</Phone_Number>
+      <Room_Number>Комната3</Room_Number>
+      <Room_Capacity>4</Room_Capacity>
+      <Room_Rang>Суперлюкс</Room_Rang>
+      <Duration>3</Duration>
+    </Visitor>
+    <Visitor>
+      <FIO>ФИО4</FIO>
+      <Phone_Number>Телефон4</Phone_Number>
+      <Room_Number>Комната4</Room_Number>
+      <Room_Capacity>1</Room_Capacity>
+      <Room_Rang>Суперлюкс</Room_Rang>
+      <Duration>4</Duration>
+    </Visitor>
+  </visitors>
+</All_Visitors>

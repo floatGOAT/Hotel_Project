@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<All_Visitors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <visitors>
+    <Visitor>
+      <visitors />
+      <FIO>Алексей</FIO>
+      <Room_Capacity>0</Room_Capacity>
+      <Duration>0</Duration>
+    </Visitor>
+    <Visitor>
+      <visitors />
+      <FIO>Борис</FIO>
+      <Room_Capacity>0</Room_Capacity>
+      <Duration>0</Duration>
+    </Visitor>
+    <Visitor>
+      <visitors />
+      <FIO>Владимир</FIO>
+      <Room_Capacity>0</Room_Capacity>
+      <Duration>0</Duration>
+    </Visitor>
+    <Visitor>
+      <visitors />
+      <FIO>Гена</FIO>
+      <Room_Capacity>0</Room_Capacity>
+      <Duration>0</Duration>
+    </Visitor>
+    <Visitor>
+      <visitors />
+      <FIO>Дима</FIO>
+      <Room_Capacity>0</Room_Capacity>
+      <Duration>0</Duration>
+    </Visitor>
+    <Visitor>
+      <visitors />
+      <FIO>Евгений</FIO>
+      <Room_Capacity>0</Room_Capacity>
+      <Duration>0</Duration>
+    </Visitor>
+    <Visitor>
+      <visitors />
+      <FIO>Жора</FIO>
+      <Room_Capacity>0</Room_Capacity>
+      <Duration>0</Duration>
+    </Visitor>
+    <Visitor>
+      <visitors />
+      <FIO>Зина</FIO>
+      <Room_Capacity>0</Room_Capacity>
+      <Duration>0</Duration>
+    </Visitor>
+    <Visitor>
+      <FIO>Иракли</FIO>
+      <Room_Capacity>0</Room_Capacity>
+      <Duration>0</Duration>
+    </Visitor>
+  </visitors>
+</All_Visitors>

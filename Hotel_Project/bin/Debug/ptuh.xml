@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<All_Visitors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <visitors>
+    <Visitor>
+      <visitors />
+      <FIO>a</FIO>
+      <Room_Capacity>0</Room_Capacity>
+      <Duration>0</Duration>
+    </Visitor>
+    <Visitor>
+      <visitors />
+      <FIO>b</FIO>
+      <Room_Capacity>0</Room_Capacity>
+      <Duration>0</Duration>
+    </Visitor>
+    <Visitor>
+      <visitors />
+      <FIO>c</FIO>
+      <Room_Capacity>0</Room_Capacity>
+      <Duration>0</Duration>
+    </Visitor>
+    <Visitor>
+      <FIO>c</FIO>
+      <Room_Capacity>0</Room_Capacity>
+      <Duration>0</Duration>
+    </Visitor>
+    <Visitor>
+      <FIO>ti</FIO>
+      <Room_Capacity>0</Room_Capacity>
+      <Duration>0</Duration>
+    </Visitor>
+    <Visitor>
+      <FIO>durak</FIO>
+      <Room_Capacity>0</Room_Capacity>
+      <Duration>0</Duration>
+    </Visitor>
+  </visitors>
+</All_Visitors>

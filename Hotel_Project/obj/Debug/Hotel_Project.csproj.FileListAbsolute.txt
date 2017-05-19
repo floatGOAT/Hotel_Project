@@ -1,0 +1,33 @@
+c:\users\aleks\documents\visual studio 2017\Projects\Hotel_Project\Hotel_Project\bin\Debug\Hotel_Project.exe.config
+c:\users\aleks\documents\visual studio 2017\Projects\Hotel_Project\Hotel_Project\bin\Debug\Hotel_Project.exe
+c:\users\aleks\documents\visual studio 2017\Projects\Hotel_Project\Hotel_Project\bin\Debug\Hotel_Project.pdb
+c:\users\aleks\documents\visual studio 2017\Projects\Hotel_Project\Hotel_Project\obj\Debug\Hotel_Project.csprojResolveAssemblyReference.cache
+c:\users\aleks\documents\visual studio 2017\Projects\Hotel_Project\Hotel_Project\obj\Debug\Hotel_Project.Form1.resources
+c:\users\aleks\documents\visual studio 2017\Projects\Hotel_Project\Hotel_Project\obj\Debug\Hotel_Project.Properties.Resources.resources
+c:\users\aleks\documents\visual studio 2017\Projects\Hotel_Project\Hotel_Project\obj\Debug\Hotel_Project.csproj.GenerateResource.Cache
+c:\users\aleks\documents\visual studio 2017\Projects\Hotel_Project\Hotel_Project\obj\Debug\Hotel_Project.exe
+c:\users\aleks\documents\visual studio 2017\Projects\Hotel_Project\Hotel_Project\obj\Debug\Hotel_Project.pdb
+E:\Ucheba\Interfaces\Hotel_Project\Hotel_Project\bin\Debug\Hotel_Project.exe.config
+E:\Ucheba\Interfaces\Hotel_Project\Hotel_Project\bin\Debug\Hotel_Project.exe
+E:\Ucheba\Interfaces\Hotel_Project\Hotel_Project\bin\Debug\Hotel_Project.pdb
+E:\Ucheba\Interfaces\Hotel_Project\Hotel_Project\obj\Debug\Hotel_Project.csprojResolveAssemblyReference.cache
+E:\Ucheba\Interfaces\Hotel_Project\Hotel_Project\obj\Debug\Hotel_Project.Form1.resources
+E:\Ucheba\Interfaces\Hotel_Project\Hotel_Project\obj\Debug\Hotel_Project.Properties.Resources.resources
+E:\Ucheba\Interfaces\Hotel_Project\Hotel_Project\obj\Debug\Hotel_Project.StartForm.resources
+E:\Ucheba\Interfaces\Hotel_Project\Hotel_Project\obj\Debug\Hotel_Project.csproj.GenerateResource.Cache
+E:\Ucheba\Interfaces\Hotel_Project\Hotel_Project\obj\Debug\Hotel_Project.exe
+E:\Ucheba\Interfaces\Hotel_Project\Hotel_Project\obj\Debug\Hotel_Project.pdb
+E:\Ucheba\Interfaces\Hotel_Project\Hotel_Project\obj\Debug\Hotel_Project.Form2.resources
+E:\Ucheba\Interfaces\Hotel_Project\Hotel_Project\obj\Debug\Hotel_Project.FormUser.resources
+D:\Учёба\Интерфейсы\Hotel_Project\Hotel_Project\bin\Debug\Hotel_Project.exe.config
+D:\Учёба\Интерфейсы\Hotel_Project\Hotel_Project\obj\Debug\Hotel_Project.exe
+D:\Учёба\Интерфейсы\Hotel_Project\Hotel_Project\obj\Debug\Hotel_Project.pdb
+D:\Учёба\Интерфейсы\Hotel_Project\Hotel_Project\bin\Debug\Hotel_Project.exe
+D:\Учёба\Интерфейсы\Hotel_Project\Hotel_Project\bin\Debug\Hotel_Project.pdb
+D:\Учёба\Интерфейсы\Hotel_Project\Hotel_Project\obj\Debug\Hotel_Project.csprojResolveAssemblyReference.cache
+D:\Учёба\Интерфейсы\Hotel_Project\Hotel_Project\obj\Debug\Hotel_Project.Form1.resources
+D:\Учёба\Интерфейсы\Hotel_Project\Hotel_Project\obj\Debug\Hotel_Project.Form2.resources
+D:\Учёба\Интерфейсы\Hotel_Project\Hotel_Project\obj\Debug\Hotel_Project.FormUser.resources
+D:\Учёба\Интерфейсы\Hotel_Project\Hotel_Project\obj\Debug\Hotel_Project.Properties.Resources.resources
+D:\Учёба\Интерфейсы\Hotel_Project\Hotel_Project\obj\Debug\Hotel_Project.StartForm.resources
+D:\Учёба\Интерфейсы\Hotel_Project\Hotel_Project\obj\Debug\Hotel_Project.csproj.GenerateResource.Cache

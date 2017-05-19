@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Visitor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FIO>123</FIO>
+  <Phone_Number>123</Phone_Number>
+  <Room_Number>123</Room_Number>
+  <Room_Capacity>1</Room_Capacity>
+  <Room_Rang>Стандартный</Room_Rang>
+  <Duration>123</Duration>
+</Visitor>

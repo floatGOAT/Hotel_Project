@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<All_Visitors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <visitors>
+    <Visitor>
+      <FIO>Нея</FIO>
+      <Phone_Number>67</Phone_Number>
+      <Room_Number>76</Room_Number>
+      <Room_Capacity>2</Room_Capacity>
+      <Room_Rang>Люкс</Room_Rang>
+      <Duration>1337</Duration>
+    </Visitor>
+  </visitors>
+</All_Visitors>
