@@ -190,8 +190,8 @@ namespace Hotel_Project
                 if (log == user.Login && pass == user.Password && log=="Administrator" && pass == "7777777")
                 {
                     exist = true;
-                    MessageBox.Show("Вход администратора успешно выполнен");
-                    HotelAdminForm form1 = new HotelAdminForm();
+                    //MessageBox.Show("Вход администратора успешно выполнен");
+                    BaseAdminForm form1 = new BaseAdminForm();
                     form1.Show();
                     using (StreamWriter wlog = new StreamWriter("log.txt", true))
                     {
@@ -202,9 +202,9 @@ namespace Hotel_Project
                 if (log == user.Login && pass == user.Password)
                 {
                     exist = true;
-                    MessageBox.Show("Вход пользователя успешно выполнен");
-                    //FormUser form1 = new FormUser();
-                    //form1.Show();
+                    //MessageBox.Show("Вход пользователя успешно выполнен");
+                    HotelAdminForm form1 = new HotelAdminForm();
+                    form1.Show();
                     using (StreamWriter wlog = new StreamWriter("log.txt", true))
                     {
                         wlog.WriteLine("{0} | {1}", DateTime.Now.ToLongTimeString(), DateTime.Now.ToLongDateString() + " | " + "Выполнен вход под именем - " + log);

@@ -20,6 +20,27 @@ namespace Hotel_Project
         All_Visitors spisok = new All_Visitors();
         XmlSerializer serial = new XmlSerializer(typeof(All_Visitors));
 
+        public void fill(Visitor visitor)
+        {
+            textBox1.Text = visitor.FIO;
+            textBox2.Text = visitor.Phone_Number;
+            textBox4.Text = visitor.Room_Number;
+            comboBox1.Text = visitor.Room_Rang;
+            switch (visitor.Room_Capacity)
+            {
+                case 1:
+                    radioButton1.Checked = true;
+                    break;
+                case 2:
+                    radioButton2.Checked = true;
+                    break;
+                case 4:
+                    radioButton3.Checked = true;
+                    break;
+            }
+            textBox3.Text = Convert.ToString(visitor.Duration);
+        }
+
         public string fio, number, roomnumber, rangroom, capacityroom, howlong; //for textboxs
         public string fname; //adress for button
         public int first = 0; //index for button "next" and "previous"
@@ -111,42 +132,26 @@ namespace Hotel_Project
             using (FileStream fs = new FileStream(filename, FileMode.OpenOrCreate))
             {
                 spisok = (All_Visitors)serial.Deserialize(fs);
-
-                textBox1.Text = spisok.visitors[0].FIO;
-                textBox2.Text = spisok.visitors[0].Phone_Number;
-                textBox4.Text = spisok.visitors[0].Room_Number;
-                comboBox1.Text = spisok.visitors[0].Room_Rang;
-                switch (spisok.visitors[0].Room_Capacity)
-                {
-                    case 1:
-                        radioButton1.Checked = true;
-                        break;
-                    case 2:
-                        radioButton2.Checked = true;
-                        break;
-                    case 4:
-                        radioButton3.Checked = true;
-                        break;
-                }
-                textBox3.Text = Convert.ToString(spisok.visitors[0].Duration);
-
-                if (spisok.visitors.Count > 1)
-                {
-                    button3.Visible = true;
-                }
-                else
-                    button3.Visible = false;
-
-                if (spisok.visitors.Count > 1 && first != 0)
-                {
-                    button4.Visible = true;
-                }
-                else
-                    button4.Visible = false;
-
             }
-            string filetext = File.ReadAllText(filename);
-            //textBox5.Text = filetext;
+
+            textBox_Finding.Visible = true;
+            delete_button.Visible = true;
+            fill(spisok.visitors[0]);
+
+            if (spisok.visitors.Count > 1)
+            {
+                button3.Visible = true;
+            }
+            else
+                button3.Visible = false;
+
+            if (spisok.visitors.Count > 1 && first != 0)
+            {
+                button4.Visible = true;
+            }
+            else
+                button4.Visible = false;
+
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -229,6 +234,38 @@ namespace Hotel_Project
                     button4.Visible = false;
                 }
             }
+        }
+
+        private void delete_button_Click(object sender, EventArgs e)
+        {
+            spisok.visitors.RemoveAt(first);
+            if (first > 0)
+                first--;
+            using (FileStream fs = new FileStream(filename, FileMode.Create))
+            {
+                serial.Serialize(fs, spisok);
+            }
+            using (FileStream fs = new FileStream(filename, FileMode.OpenOrCreate))
+            {
+                spisok = (All_Visitors)serial.Deserialize(fs);
+            }
+        }
+
+        private void textBox_Finding_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox_Finding.Text == null)
+                return;
+            foreach (var visitor in spisok.visitors)
+            {
+                if (visitor.FIO.StartsWith(textBox_Finding.Text))
+                {
+                    fill(visitor);
+                    first = spisok.visitors.IndexOf(visitor);
+                    return;
+                }
+            }
+            MessageBox.Show("Постояльца с такими данными не найдено");
+            textBox_Finding.Text = null;
         }
 
         private void Excel_ToolStripMenuItem_Click(object sender, EventArgs e)
@@ -329,3 +366,4 @@ namespace Hotel_Project
             visitors.Add(visitor);
         }
     }
+}

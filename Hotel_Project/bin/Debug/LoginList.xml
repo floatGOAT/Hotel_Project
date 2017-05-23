@@ -66,9 +66,21 @@
       <Hash>8e0e3fdb647027ffa9571da8afc2e3f9</Hash>
     </User>
     <User>
+      <users />
       <Login>Виталик</Login>
       <Password>1234</Password>
       <Hash>81dc9bdb52d04dc20036dbd8313ed055</Hash>
+    </User>
+    <User>
+      <users />
+      <Login>Член ом приёмный </Login>
+      <Password>Говнакусман</Password>
+      <Hash>90063830faa67ad3423f9537e2e77ce8</Hash>
+    </User>
+    <User>
+      <Login>Meepo</Login>
+      <Password>777777</Password>
+      <Hash>f63f4fbc9f8c85d409f2f59f2b9e12d5</Hash>
     </User>
   </users>
 </AllUsers>

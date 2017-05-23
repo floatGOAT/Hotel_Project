@@ -48,11 +48,13 @@
             this.button4 = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripExit = new System.Windows.Forms.ToolStripMenuItem();
             this.отчётыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Excel_ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Word_ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.About_ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripExit = new System.Windows.Forms.ToolStripMenuItem();
+            this.textBox_Finding = new System.Windows.Forms.TextBox();
+            this.delete_button = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -254,6 +256,13 @@
             this.toolStripMenuItem1.Size = new System.Drawing.Size(53, 20);
             this.toolStripMenuItem1.Text = "Меню";
             // 
+            // toolStripExit
+            // 
+            this.toolStripExit.Name = "toolStripExit";
+            this.toolStripExit.Size = new System.Drawing.Size(109, 22);
+            this.toolStripExit.Text = "Выйти";
+            this.toolStripExit.Click += new System.EventHandler(this.toolStripExit_Click);
+            // 
             // отчётыToolStripMenuItem
             // 
             this.отчётыToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -284,20 +293,35 @@
             this.About_ToolStripMenuItem.Text = "О программе";
             this.About_ToolStripMenuItem.Click += new System.EventHandler(this.About_ToolStripMenuItem_Click);
             // 
-            // toolStripExit
+            // textBox_Finding
             // 
-            this.toolStripExit.Name = "toolStripExit";
-            this.toolStripExit.Size = new System.Drawing.Size(152, 22);
-            this.toolStripExit.Text = "Выйти";
-            this.toolStripExit.Click += new System.EventHandler(this.toolStripExit_Click);
+            this.textBox_Finding.Location = new System.Drawing.Point(35, 284);
+            this.textBox_Finding.Name = "textBox_Finding";
+            this.textBox_Finding.Size = new System.Drawing.Size(154, 20);
+            this.textBox_Finding.TabIndex = 22;
+            this.textBox_Finding.Visible = false;
+            this.textBox_Finding.TextChanged += new System.EventHandler(this.textBox_Finding_TextChanged);
+            // 
+            // delete_button
+            // 
+            this.delete_button.Location = new System.Drawing.Point(273, 259);
+            this.delete_button.Name = "delete_button";
+            this.delete_button.Size = new System.Drawing.Size(100, 42);
+            this.delete_button.TabIndex = 16;
+            this.delete_button.Text = "Удалить";
+            this.delete_button.UseVisualStyleBackColor = true;
+            this.delete_button.Visible = false;
+            this.delete_button.Click += new System.EventHandler(this.delete_button_Click);
             // 
             // HotelAdminForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(648, 349);
+            this.Controls.Add(this.textBox_Finding);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
+            this.Controls.Add(this.delete_button);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox4);
@@ -352,6 +376,8 @@
         private System.Windows.Forms.ToolStripMenuItem Word_ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem About_ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripExit;
+        private System.Windows.Forms.TextBox textBox_Finding;
+        private System.Windows.Forms.Button delete_button;
     }
 }
 
