@@ -1,5 +1,6 @@
 ﻿using System;
 using System.CodeDom;
+using System.IO;
 using System.Security.Permissions;
 using Excel = Microsoft.Office.Interop.Excel;
 
@@ -14,7 +15,7 @@ namespace Hotel_Project
         public ExcelSerializer()
         {
             excelApp = new Excel.Application();
-            excelApp.Visible = true;
+            excelApp.Visible = false;
             excelApp.UserControl = true;
             excelApp.SheetsInNewWorkbook = 1;
         }
@@ -23,7 +24,7 @@ namespace Hotel_Project
         {
             try
             {
-                excelApp.Workbooks.Open(_bookName);
+                excelApp.Workbooks.Open(_bookName, FileMode.OpenOrCreate);
                 excelApp.Workbooks[0].Sheets.Add();
                 worksheet = excelApp.Workbooks[1].Worksheets.get_Item(excelApp.Workbooks[1].Worksheets.Count);
                 return;

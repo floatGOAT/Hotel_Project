@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using Word = Microsoft.Office.Interop.Word;
 
 namespace Hotel_Project
@@ -12,14 +13,14 @@ namespace Hotel_Project
         public WordSerializer()
         {
             wordApp = new Word.Application();
-            wordApp.Visible = true;
+            wordApp.Visible = false;
         }
 
         public void isExisted()
         {
             try
             {
-                wordApp.Documents.Open(_docname);
+                wordApp.Documents.Open(_docname, FileMode.Append);
                 document = wordApp.Documents.get_Item(wordApp.Documents.Count - 1);
             }
             catch (Exception e)
