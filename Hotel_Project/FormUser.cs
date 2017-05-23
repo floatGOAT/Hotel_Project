@@ -46,22 +46,33 @@ namespace Hotel_Project
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void wordButton_Click(object sender, EventArgs e)
         {
-            Visitor currentVisitor = new Visitor(fio, number, roomnumber, Convert.ToUInt16(capacityroom), rangroom, Convert.ToUInt16(howlong));
 
-            ExcelSerializer excelSerializer = new ExcelSerializer();
-            excelSerializer.isExisted();
-            excelSerializer.Write(currentVisitor);
-            excelSerializer.Close();
+        }
 
-            WordSerializer wordSerializer = new WordSerializer();
-            wordSerializer.isExisted();
-            wordSerializer.Write(currentVisitor);
-            wordSerializer.Close();
+        private void excelButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void commitButton_Click(object sender, EventArgs e)
+        {
+            Visitor currentVisitor = new Visitor(fio, number, roomnumber, Convert.ToUInt16(capacityroom), rangroom,
+                Convert.ToUInt16(howlong));
+
+            /*excelSerializer.isExisted();
+excelSerializer.Write(currentVisitor);
+excelSerializer.Close();
+
+wordSerializer.isExisted();
+wordSerializer.Write(currentVisitor);
+wordSerializer.Close();*/
+
             spisok.addvisitor(currentVisitor);
-       
+
             FolderBrowserDialog fbd = new FolderBrowserDialog();
+
             /*fbd.SelectedPath = "E:\\Ucheba\\Interfaces\\Hotel_Project\\Hotel_Project\\bin\\Debug\\";
             if (fbd.ShowDialog() == DialogResult.Cancel)
                 return;*/
@@ -70,7 +81,11 @@ namespace Hotel_Project
             if (svf.ShowDialog() == DialogResult.Cancel)
                 return;
             string filename = svf.FileName;
-            using (FileStream fs = new FileStream(filename, FileMode.OpenOrCreate))
+            using (FileStream fs = new FileStream("Slaves.xml", FileMode.OpenOrCreate))
+            {
+                spisok = (All_Visitors)serial.Deserialize(fs);
+            }
+            using (FileStream fs = new FileStream("Slaves.xml", FileMode.OpenOrCreate))
             {
                 serial.Serialize(fs, spisok);
             }

@@ -82,7 +82,7 @@ namespace Hotel_Project
 
         private void toolStripTextBox1_Click(object sender, EventArgs e)
         {
-            Form2 form = new Form2();
+            BaseAdminForm form = new BaseAdminForm();
             form.Show();
         }
 
@@ -191,7 +191,7 @@ namespace Hotel_Project
                 {
                     exist = true;
                     MessageBox.Show("Вход администратора успешно выполнен");
-                    Form1 form1 = new Form1();
+                    HotelAdminForm form1 = new HotelAdminForm();
                     form1.Show();
                     using (StreamWriter wlog = new StreamWriter("log.txt", true))
                     {
@@ -203,8 +203,8 @@ namespace Hotel_Project
                 {
                     exist = true;
                     MessageBox.Show("Вход пользователя успешно выполнен");
-                    FormUser form1 = new FormUser();
-                    form1.Show();
+                    //FormUser form1 = new FormUser();
+                    //form1.Show();
                     using (StreamWriter wlog = new StreamWriter("log.txt", true))
                     {
                         wlog.WriteLine("{0} | {1}", DateTime.Now.ToLongTimeString(), DateTime.Now.ToLongDateString() + " | " + "Выполнен вход под именем - " + log);

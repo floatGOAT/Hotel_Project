@@ -42,7 +42,9 @@
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.button1 = new System.Windows.Forms.Button();
+            this.commitButton = new System.Windows.Forms.Button();
+            this.wordButton = new System.Windows.Forms.Button();
+            this.excelButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -180,22 +182,44 @@
             this.radioButton3.UseVisualStyleBackColor = true;
             this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
             // 
-            // button1
+            // commitButton
             // 
-            this.button1.Location = new System.Drawing.Point(371, 214);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(98, 48);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "Арендовать";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.commitButton.Location = new System.Drawing.Point(371, 214);
+            this.commitButton.Name = "commitButton";
+            this.commitButton.Size = new System.Drawing.Size(98, 48);
+            this.commitButton.TabIndex = 14;
+            this.commitButton.Text = "Добавить в базу";
+            this.commitButton.UseVisualStyleBackColor = true;
+            this.commitButton.Click += new System.EventHandler(this.commitButton_Click);
+            // 
+            // wordButton
+            // 
+            this.wordButton.Location = new System.Drawing.Point(260, 214);
+            this.wordButton.Name = "wordButton";
+            this.wordButton.Size = new System.Drawing.Size(98, 48);
+            this.wordButton.TabIndex = 14;
+            this.wordButton.Text = "Отчёт Word";
+            this.wordButton.UseVisualStyleBackColor = true;
+            this.wordButton.Click += new System.EventHandler(this.wordButton_Click);
+            // 
+            // excelButton
+            // 
+            this.excelButton.Location = new System.Drawing.Point(156, 214);
+            this.excelButton.Name = "excelButton";
+            this.excelButton.Size = new System.Drawing.Size(98, 48);
+            this.excelButton.TabIndex = 14;
+            this.excelButton.Text = "Отчёт Excel";
+            this.excelButton.UseVisualStyleBackColor = true;
+            this.excelButton.Click += new System.EventHandler(this.excelButton_Click);
             // 
             // FormUser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(521, 330);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.excelButton);
+            this.Controls.Add(this.wordButton);
+            this.Controls.Add(this.commitButton);
             this.Controls.Add(this.radioButton3);
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.radioButton1);
@@ -234,6 +258,8 @@
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button commitButton;
+        private System.Windows.Forms.Button wordButton;
+        private System.Windows.Forms.Button excelButton;
     }
 }
