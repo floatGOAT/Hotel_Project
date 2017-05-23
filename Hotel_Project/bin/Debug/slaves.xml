@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<All_Visitors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <visitors>
+    <Visitor>
+      <visitors />
+      <FIO>1</FIO>
+      <Room_Capacity>0</Room_Capacity>
+      <Duration>0</Duration>
+    </Visitor>
+    <Visitor>
+      <visitors />
+      <FIO>12</FIO>
+      <Room_Capacity>0</Room_Capacity>
+      <Duration>0</Duration>
+    </Visitor>
+    <Visitor>
+      <visitors />
+      <FIO>1243</FIO>
+      <Room_Capacity>0</Room_Capacity>
+      <Duration>0</Duration>
+    </Visitor>
+    <Visitor>
+      <visitors />
+      <FIO>2</FIO>
+      <Room_Capacity>0</Room_Capacity>
+      <Duration>0</Duration>
+    </Visitor>
+    <Visitor>
+      <visitors />
+      <FIO>19999</FIO>
+      <Phone_Number>2345</Phone_Number>
+      <Room_Number>23</Room_Number>
+      <Room_Capacity>4</Room_Capacity>
+      <Room_Rang>Люкс</Room_Rang>
+      <Duration>4</Duration>
+    </Visitor>
+    <Visitor>
+      <FIO>й цу ф</FIO>
+      <Phone_Number>123456</Phone_Number>
+      <Room_Number>44</Room_Number>
+      <Room_Capacity>2</Room_Capacity>
+      <Room_Rang>Люкс</Room_Rang>
+      <Duration>43</Duration>
+    </Visitor>
+  </visitors>
+</All_Visitors>

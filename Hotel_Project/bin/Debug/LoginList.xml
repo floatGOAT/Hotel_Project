@@ -54,9 +54,21 @@
       <Hash>b65cb28b7c2569d90631cef9c8a8c29e</Hash>
     </User>
     <User>
+      <users />
       <Login>Andrew</Login>
       <Password>Alexeev</Password>
       <Hash>0240e1f04cf3110edd70d12aa3cdc617</Hash>
+    </User>
+    <User>
+      <users />
+      <Login>Новый</Login>
+      <Password>Пользователь</Password>
+      <Hash>8e0e3fdb647027ffa9571da8afc2e3f9</Hash>
+    </User>
+    <User>
+      <Login>Виталик</Login>
+      <Password>1234</Password>
+      <Hash>81dc9bdb52d04dc20036dbd8313ed055</Hash>
     </User>
   </users>
 </AllUsers>
